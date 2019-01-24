@@ -21,7 +21,7 @@ class ViewController: UIViewController {
         let message1 = "You got peanut butter in my chocolate!"
         let message2 = "You got chocolate in my peanut butter!"
         
-        if messageLabel.text== message1 {
+        if messageLabel.text==message1 {
             messageLabel.text = message2
             messageLabel.textColor = UIColor.brown
             messageLabel.textAlignment = NSTextAlignment.right
